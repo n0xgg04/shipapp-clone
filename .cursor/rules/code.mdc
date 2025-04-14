@@ -1,0 +1,44 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+# This is a project like GiaoHangTietKiem, for users to make a shipment 
+- This project use PHP and Block engine to use util tool like Blade of Laravel
+
+- For styling, use Bootstrap V5 and Alpine to create UI
+
+This is project structure:
+```
+<directory_structure>
+assets/ # all assets
+  css/
+    reset.css
+    style.css
+common/ # common php function
+  utils/
+    function.php
+  views/
+    block.php
+pages/ # main routing 
+  index.php
+views/ #view directory
+  components/ #component view
+    about-us.view.php
+    banner.view.php
+    nations.view.php
+    topbar.view.php
+  layouts/ #app layout
+    master.view.php
+  pages/
+    landing.view.php
+.htaccess
+composer.json
+</directory_structure>
+```
+
+Rules:
+- Never write comment to code
+- Priority to split UI code to component
+- Prefer using Bootstrap class, instead of make class yourself
