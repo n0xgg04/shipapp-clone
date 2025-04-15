@@ -248,8 +248,8 @@ body {
 }
 
 .navbar .btn-primary {
-    background-color: #f05123;
-    border-color: #f05123;
+    background-color: #e4002b;
+    border-color: #e4002b;
     font-size: 0.85rem;
     font-weight: 600;
     padding: 0.5rem 1.5rem;
@@ -257,9 +257,11 @@ body {
     transition: all 0.2s;
 }
 
-.navbar .btn-primary:hover {
-    background-color: #d83a0d;
-    border-color: #d83a0d;
+.navbar .btn-primary:hover,
+.navbar .btn-primary:focus,
+.navbar .btn-primary:active {
+    background-color: #c40026;
+    border-color: #c40026;
     transform: translateY(-1px);
 }
 
@@ -817,4 +819,87 @@ body {
     .footer {
         font-size: 0.85rem;
     }
+}
+
+.map-section {
+    background-color: #f8f9fa;
+}
+
+.map-section h3 {
+    color: #e4002b;
+    font-weight: 600;
+}
+
+.map-section .form-select {
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+}
+
+.map-section .form-select:focus {
+    border-color: #e4002b;
+    box-shadow: 0 0 0 0.25rem rgba(228, 0, 43, 0.25);
+}
+
+.news-section {
+    background-color: #fff;
+}
+
+.news-section .card {
+    transition: transform 0.2s;
+}
+
+.news-section .card:hover {
+    transform: translateY(-5px);
+}
+
+.news-section .main-news .card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.news-section .related-news .card-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.news-section .card-body {
+    padding: 1rem;
+}
+
+.news-section .btn-outline-primary {
+    color: #e4002b;
+    border-color: #e4002b;
+}
+
+.news-section .btn-outline-primary:hover {
+    color: #fff;
+    background-color: #e4002b;
+    border-color: #e4002b;
+}
+
+.feedback-section .form-control {
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+}
+
+.feedback-section .form-control:focus {
+    border-color: #e4002b;
+    box-shadow: 0 0 0 0.25rem rgba(228, 0, 43, 0.25);
+}
+
+.feedback-section .form-label {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.feedback-section .btn:hover {
+    background-color: #c40026 !important;
 }

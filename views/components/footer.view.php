@@ -6,7 +6,7 @@
                 <h5 class="text-uppercase mb-3">CÔNG TY TNHH MỘT THÀNH VIÊN CHUYỂN PHÁT NHANH THUẬN PHONG</h5>
                 <p class="small mb-2">Giấy CNĐKKD: 0313617136 - Ngày cấp: 13/01/2016, đăng ký thay đổi lần 06 ngày 25/09/2018</p>
                 <p class="small">Cơ Quan Cấp: Phòng Đăng ký kinh doanh - Sở kế hoạch và đầu tư TP Hồ Chí Minh</p>
-                <img src="/assets/images/bo-cong-thuong.png" alt="Bộ Công Thương" height="40">
+                
             </div>
             <div class="col-lg-3 mb-4">
                 <h5 class="text-danger mb-4">TRUY CẬP NHANH</h5>
@@ -42,14 +42,7 @@
                     <li class="mb-2"><i class="fas fa-phone me-2"></i> 1900 1088</li>
                     <li class="mb-4"><i class="fas fa-map-marker-alt me-2"></i> 10 Mai Chí Thọ, P. Thủ Thiêm, Thành phố Thủ Đức, TP. HCM</li>
                 </ul>
-                <h5 class="text-danger mb-3">TẢI ỨNG DỤNG</h5>
-                <div class="qr-container">
-                    <img src="/assets/images/qr-code.png" alt="QR Code" height="100">
-                    <div class="app-download ms-3">
-                        <a href="#" class="d-block mb-2"><img src="/assets/images/app-store.png" alt="App Store" height="35"></a>
-                        <a href="#" class="d-block"><img src="/assets/images/google-play.png" alt="Google Play" height="35"></a>
-                    </div>
-                </div>
+                
             </div>
         </div>
         <div class="footer-social text-center mt-4">

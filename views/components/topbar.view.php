@@ -10,16 +10,6 @@
                     <i class="fas fa-map-marker-alt me-1"></i> Bưu cục GHN toàn quốc
                 </a>
             </div>
-            <div class="d-flex align-items-center">
-                <div class="dropdown me-3">
-                    <button class="btn btn-link text-white text-decoration-none dropdown-toggle p-0" type="button" data-bs-toggle="dropdown">
-                        <img src="/assets/images/flags/vn.png" alt="VN" class="me-1" width="20"> VN GHN
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#"><img src="/assets/images/flags/vn.png" alt="VN" width="20" class="me-2">VN GHN</a></li>
-                    </ul>
-                </div>
-            </div>
         </div>
     </div>
 </div>
